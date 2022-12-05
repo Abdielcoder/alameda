@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: Raleway; 
+  text-transform: uppercase; 
+  font-size: 11px; 
+}
+h1{ margin: 0; }
+#update { 
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+#update:hover { background: rgb(19, 125, 24); }
+#update:active { background: #444; }
+
+#add { 
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    
+    cursor: pointer;
+    border: 1px solid white;
+  }
+  
+  #add:hover { background: rgb(19, 125, 24); }
+  #add:active { background: #444; }
+  
+
+
+#contactForm { 
+  display: none;
+
+  border: 6px solid rgb(147, 177, 15); 
+  padding: 2em;
+  width: 20%;
+
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+  
+}
+#addForm { 
+  display: none;
+
+  border: 6px solid rgb(147, 177, 15); 
+  padding: 2em;
+  width: 400px;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+  
+}
+
+#labelForm{
+  text-align: center!important;
+  margin-top: 1em;
+  color: rgb(1, 1, 1);
+}
+#labelTitle{
+  margin-top: 1em;
+  text-align: left !important;
+  color: rgb(5, 56, 11);
+}
+
+input, textarea { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn { 
+  width: 45%;
+  margin-left: 3%;
+  margin-top: 2em;
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}

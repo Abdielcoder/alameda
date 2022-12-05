@@ -1,0 +1,13 @@
+#map {
+    height: 70vh;
+    width: 100%;
+  }
+
+  #my_color_box{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+  }
+
+  #icon_color{
+    color: azure;
+  }
